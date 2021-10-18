@@ -12,6 +12,7 @@ function createApp() {
   // Append the titleComponent to the app
   appElement.append(titleComponent);
 
+
   // Create first page with a callback, if the birthday is submitted
   const enterBirthdayPage = createEnterBirthdayPage(function (birthday) {
     // 📝 This alert is only temporary. We like to render a second page if the birthday is submitted.
